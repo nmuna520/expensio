@@ -1,6 +1,6 @@
 FROM python:3.10-alpine3.16
 
-LABEL maintainer="https://www.linkedin.com/in/nmurillo/"
+LABEL maintainer="https://www.leanware.co/"
 
 ENV PYTHONUNBUFFERED 1
 
