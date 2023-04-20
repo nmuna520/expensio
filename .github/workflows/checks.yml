@@ -1,15 +1,7 @@
 ---
 name: Checks
 
-permissions:
-  contents: read
-  pull-requests: write
-
-on:
-  pull_request:
-  pull_request_review_comment:
-    types: [created]
-
+on: [push]
 
 jobs:
   test-lint:
